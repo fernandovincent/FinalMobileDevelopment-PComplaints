@@ -4,7 +4,7 @@ import { SplashScreen, GetStarted, SignIn} from './pages';
 
 const App = () => {
   return (
-    <SplashScreen />
+    <GetStarted />
   );
 };
 
