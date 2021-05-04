@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   text:{
     color:'#112340',
     fontSize: 28,
-    fontFamily:'Montserrat-SemiBold',
+    fontFamily: 'Montserrat-SemiBold',
   },
   contentWrapper: {
       paddingHorizontal: 24,
