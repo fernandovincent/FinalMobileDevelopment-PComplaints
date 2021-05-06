@@ -1,7 +1,7 @@
 import SplashScreen from './SplashScreen';
 import SignIn from './SignIn';
 import GetStarted from './GetStarted';
-// import SignUp from './SignUp'
-// import Beranda from './Beranda';
+import SignUp from './SignUp'
+import Beranda from './Beranda';
 
-export {SplashScreen, SignIn, GetStarted};
+export {SplashScreen, SignIn, GetStarted, SignUp, Beranda};
