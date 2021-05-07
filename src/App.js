@@ -1,7 +1,6 @@
 import React from 'react';
-import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
-// import {SplashScreen, GetStarted, SignIn} from './pages';
+import 'react-native-gesture-handler';
 import Router from './router';
 import FlashMessage from 'react-native-flash-message';
 

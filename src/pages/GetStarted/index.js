@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
   text:{
     color:'#112340',
     fontSize: 28,
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily:'Montserrat-SemiBold',
+    maxWidth: 230,
   },
   contentWrapper: {
       paddingHorizontal: 24,

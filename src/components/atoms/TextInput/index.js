@@ -10,19 +10,19 @@ const TextInput = ({title, placeholder, ...rest}) => {
     )
 }
 
-export default TextInput
+export default TextInput;
 
 const styles = StyleSheet.create({
     text:{
-        fontSize: 20,
-        fontFamily: 'Poppins-Regular',
+        fontSize: 16,
+        fontFamily: 'Montserrat-Light',
         marginBottom: 6,
     },
     input :{
         borderWidth: 1,
-        borderColor: '#020202',
-        borderRadius: 8,
+        borderColor: '#B4B4B4',
+        borderRadius: 10,
         paddingLeft: 10,
         paddingHorizontal:  10,
-    }
-})
+    },
+});

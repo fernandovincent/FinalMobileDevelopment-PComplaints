@@ -1,14 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-const Beranda = () => {
+const Reports = () => {
   return (
     <View>
-      <Text>Dashboard Page</Text>
+      <Text>Reports Page</Text>
     </View>
   )
 }
 
-export default Beranda;
+export default Reports;
 
 const styles = StyleSheet.create({})
