@@ -1,10 +1,15 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { SplashScreen, GetStarted, SignIn} from './pages';
+import {NavigationContainer} from '@react-navigation/native';
+import Router from './router';
+import FlashMessage from 'react-native-flash-message';
 
 const App = () => {
   return (
-    <SplashScreen />
+    <NavigationContainer>
+      <Router />
+      <FlashMessage position="top" />
+    </NavigationContainer>
   );
 };
 
