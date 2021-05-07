@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import {Logo} from '../../assets';
-import { Button, Gap, TextInput, Loading } from '../../components';
+import {Button, Gap, TextInput, Loading} from '../../components';
 import firebase from '../../config/Firebase';
 import {showMessage} from 'react-native-flash-message';
 
 const SignIn = ({navigation}) => {
 
-  const [email, setEmail] = useState ('');
-  const [password, setPassword] = useState ('');
-  
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   const [loading, setLoading] = useState(false);
 
   const onSubmit = () => {

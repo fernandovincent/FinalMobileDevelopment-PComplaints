@@ -36,7 +36,7 @@ const SignUp = ({navigation}) => {
       },
     );
   };
-
+  
   const onSubmit = () => {
     setLoading(true);
     firebase
@@ -109,13 +109,13 @@ const SignUp = ({navigation}) => {
 };
 
 const styles = StyleSheet.create({
-  page :{
+  page: {
     flex: 1,
   },
-  contentWrapper :{
-    flex : 1,
-    backgroundColor : 'white',
-    paddingHorizontal : 24,
+  contentWrapper: {
+    flex: 1,
+    backgroundColor: 'white',
+    paddingHorizontal: 24,
   },
   addPhoto: {
     height: 90,
