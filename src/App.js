@@ -1,9 +1,17 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {SplashScreen, GetStarted, SignIn} from './pages';
+import 'react-native-gesture-handler';
+import {NavigationContainer} from '@react-navigation/native';
+// import {SplashScreen, GetStarted, SignIn} from './pages';
+import Router from './router';
+import FlashMessage from 'react-native-flash-message';
 
 const App = () => {
-  return <SignIn />;
+  return (
+    <NavigationContainer>
+      <Router />
+      <FlashMessage position="top" />
+    </NavigationContainer>
+  );
 };
 
 export default App;
