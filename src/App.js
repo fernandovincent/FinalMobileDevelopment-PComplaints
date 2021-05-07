@@ -4,6 +4,7 @@ import 'react-native-gesture-handler';
 import Router from './router';
 import FlashMessage from 'react-native-flash-message';
 
+//Move
 const App = () => {
   return (
     <NavigationContainer>
