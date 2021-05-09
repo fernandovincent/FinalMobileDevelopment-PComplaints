@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import Button from '../../components/atoms/button'
-
+import Button from '../../components/atoms/Button'
+import Gap from '../../components/atoms/Gap'
 const GetStarted = () => {
   return (
     <View style={styles.page}>
