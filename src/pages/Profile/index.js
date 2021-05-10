@@ -71,7 +71,7 @@ const Profile = ({navigation}) => {
       </View>
     </View>
   </View>
-      <List name="Edit Profile" desc="Edit your profile" icon="edit-profile" onPress={() => navigation.navigate('UpdateProfile')} />
+      
       <List name="Logout" desc="Sign out from application" icon="logout" onPress={signOut} />
       </ScrollView>
     </View>
