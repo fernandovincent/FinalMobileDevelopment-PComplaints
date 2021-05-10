@@ -15,14 +15,14 @@ const List = ({name, desc, onPress, icon}) => {
   return (
     <TouchableOpacity style={styles.container} onPress={onPress}>
       <View>
-      <Icon />
+      {/* <Icon /> */}
       </View>
       <View style={styles.content}>
         <Text style={styles.name}>{name}</Text>
         <Text style={styles.desc}>{desc}</Text>
       </View>
       <View style={styles.icon}>
-      <IconNext /> 
+      {/* <IconNext />  */}
       </View>
     </TouchableOpacity>
   )
